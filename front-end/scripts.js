@@ -25,11 +25,11 @@ const getFilmes = async () => {
                         <td>
                             <div class="card-body">
                                 <button class="btn btn-outline-dark" data-bs-toggle="popover" title="Editar: Clique no Menu para pode modificar as opções" onclick="editaFilme(${filme.id})">
-                                <img class="btn-edit" src="/frontend/img/edit-bg.png"></button>
+                                <img class="btn-edit" src="/front-end/img/edit-bg.png"></button>
                                 <button class="btn btn-outline-danger" data-bs-toggle="popover" title="delete" onclick="deleteFilme(${filme.id})">
-                                <img class="btn2-edit" src="/frontend/img/del.png"></button>
-                                ${filme.assistido ? `<button class="btn btn-outline-warning" data-bs-toggle="popover" title="não assistido" onclick="btnSelection(${filme.id})"><img class="btn3-edit" src="/frontend/img/emo-bgr.png"></button>`:
-                                    `<button class="btn btn-outline-success" data-bs-toggle="popover" title="assistido" onclick="btnSelection(${filme.id})"><img class="btn4-edit" src="/frontend/img/emo-piscando.png"></button>`}
+                                <img class="btn2-edit" src="/front-end/img/del.png"></button>
+                                ${filme.assistido ? `<button class="btn btn-outline-warning" data-bs-toggle="popover" title="não assistido" onclick="btnSelection(${filme.id})"><img class="btn3-edit" src="/front-end/img/emo-bgr.png"></button>`:
+                                    `<button class="btn btn-outline-success" data-bs-toggle="popover" title="assistido" onclick="btnSelection(${filme.id})"><img class="btn4-edit" src="/front-end/img/emo-piscando.png"></button>`}
                             </div>
                         </td>
                     </tr>

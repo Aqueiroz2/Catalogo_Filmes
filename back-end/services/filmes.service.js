@@ -1,26 +1,26 @@
 const filmes = [
     {
         id: 1,
-        titulo: 'Guardiões da Galáxia',
-        genero: 'Aventura',
-        imagem: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1P_hV6E3_OlEq4MdFMQje5SyBUkAH0JKasP_iVJG4HMT69xn2',
+        titulo: 'Se beber, não case! Parte II',
+        genero: 'Comédia',
+        imagem: 'https://lojasaraiva.vteximg.com.br/arquivos/ids/160738/1000431248.jpg?v=636968343704230000',
         nota: 10,
         assistido: false,
     },
     {
         id: 2,
-        titulo: 'Jogador N 1',
-        genero: 'ação, aventura, ficção cientifica',
-        imagem: 'https://img.elo7.com.br/product/original/268A830/big-poster-filme-jogador-numero-1-lo004-tamanho-90x60-cm-nerd.jpg',
+        titulo: 'Liga da Justiça - Snyder Cut',
+        genero: 'Ação, Ficção científica',
+        imagem: 'https://br.web.img2.acsta.net/pictures/20/08/10/22/00/5069470.jpg',
         nota: 10,
         assistido: false,
     },
     {
         id: 3,
-        titulo: 'Duna',
-        genero: 'Ficção científica/Aventura',
-        imagem: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOC8VCTSrgc4jn8tBEgZ0u1C7L40AKaniCkCpD0j2UNCJmXiVj',
-        nota: 8,
+        titulo: 'Sexta-Feira 13',
+        genero: 'Terror',
+        imagem: 'https://br.web.img3.acsta.net/pictures/15/03/10/20/18/175541.jpg',
+        nota: 10,
         assistido: false,
     }
     
