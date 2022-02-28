@@ -7,14 +7,13 @@
   }
 
   html body {
-    /* background-color: whitesmoke; */
     background-image: url("./img/film.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(231, 231, 231, 0.644);
   }
 
   .img-banner{
@@ -31,9 +30,7 @@
     height:25px;
   }
   .btn3-edit {
-    /* width: 35%; */
     height:25px;
-    /* padding:10px; */
   }
   .btn4-edit {
     height: 25px;px;
